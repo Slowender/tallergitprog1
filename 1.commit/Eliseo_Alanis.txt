@@ -1,0 +1,20 @@
+1.1 Preguntas
+1. git init
+2. git rm --cached (nombre del directorio)
+3. si
+4. git add (nombre del archivo)
+5. git status
+6. git commit -m (mensaje del commit)
+7. Un commit es un registro de los cambios realizados en un conjunto de archivos. Es como tomar una foto de los cambios que se hicieron en los archivos para volver a ellos en cualquier momento
+---------------------------
+1.2.3 veo que sanwdwich.txt esta modificado, ya fue comieteado antes y hay un archivo Eliseo_Alanis.txt que es nuevo, y nunca fue agregado a git
+1.2.5 despues de hacer git add sandwich.txt , el archivo paso a estar en staging en lugar de modified. Y sigo viendo mi txt en rojo, porque esta en modified
+1.2.7 despues de hacer el commit no se ve mas el archivo sandwich.txt y solo se ve el Eliseo_Alanis.txt
+1.2.9 git log me muestra el historial de commits de la branch y esta ordenado del mas actual al mas reciente
+1.2.10 git log --oneline muestra una lista de los commits realizados en cada repositorio  de git. Cada commit se muestra mas abreviado, no dice datos como fecha o quien lo hizo, y una abreviatura del hash.
+lo que hace git log --stat es mostrar una lista de commits que se realizaron en el repositorio git pero con mas datos, como estadisticas sobre los cambios realizados en cada commit. Es mas especifico que hacer simplemente git log 
+1.2.11 al usar el comando git diff se pueden ver las diferencias entre el archivo actual y el ultimo commit, con esto podemos ver que cambios hemos hecho desde la ultima vez que se realizó un commit. Para esto escribimos los dos hashs que queremos comparar
+1.2.14 se cambio el nombre del archivo, y este se encuentra en staging sin estar comiteado (git status). 
+Y al usar el comando git log --oneline vemos que no aparece al archivo porque no habia que comitiar nada
+1.2.15 se borró y ya no aparece para commitear en git status. Con el comando git log --oneline, no cambió nada porque anteriormente no habia sido comiteado y ahora se habia borrado.
+1.12.16 al utilizar el comando git log --stat vemos que ahora en el commit de sebastian del 17 de abril a las 21hs nos aparecen mas arhcivos, cons sus respectivos cambios. Y ahora tenemos un nuevo commit hecho por sebastian el 17 de abril a las 20 hs
