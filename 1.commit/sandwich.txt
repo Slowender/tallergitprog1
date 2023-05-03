@@ -1,6 +1,7 @@
 pan
 lechuga
 tomate
+mayonesa
 queso
 medallón
 pan
